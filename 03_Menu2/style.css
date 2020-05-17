@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+  list-style: none;
+  margin: 0; /*Le navigateur apporte son lot de CSS sur le ul, comme le margin donc on reset le css du navigateur*/
+  padding: 0;
+  display: flex;
+  background-color: #a1a1a1;
+}
+.menu{
+  margin-top: 10px;
+  padding-left: 30px;
+}
+.menu > li{
+  margin-right: 10px;
+}
+
+li{
+  position: relative; /*Importante pour positionner l'enfant qui est en absolute*/
+}
+a{
+  display:block;
+  text-transform: uppercase; /*Mets en majuscule le texte*/
+  color: white;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+a:hover{
+  background-color: white;
+  color: #a1a1a1;
+}
+
+.subMenu{
+  display: none; /*Cache mon sous-menu tant qu'il n'y a pas d'hover*/
+  flex-direction: column; /*On rajoute cette instruction afin d'avoir nos éléments de menu en colonne*/
+  position: absolute; /*Se positionne selon son parent*/
+
+  width: 150px; /*Ajoute une taille fixe afin d'avoir le controle sur le right de notre position absolute*/
+}
+
+ul li:hover .subMenu{
+  display: flex; /*Quand on survole l'élément li de notre première liste, il nous affiche le sousmenu*/
+}
+
+.subSubMenu{
+  display:none;
+  flex-direction: column;
+  position: absolute;
+  width: 150px;/*Ajoute une taille fixe afin d'avoir le controle sur le right de notre position absolute*/
+  right: -100%;
+  top:0;
+}
+
+.subMenu li:hover .subSubMenu{
+  display: flex; /*Quand on survole l'élément li de notre dexuième liste, il nous affiche le sousmenu*/
+}

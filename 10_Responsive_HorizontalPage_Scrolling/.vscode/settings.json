@@ -1,0 +1,13 @@
+{
+    "workbench.colorCustomizations": {
+        "editorGroup.border": "#8a76c1",
+        "panel.border": "#8a76c1",
+        "sideBar.border": "#8a76c1",
+        "statusBar.background": "#6c53b1",
+        "statusBar.border": "#6c53b1",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#8a76c1"
+    },
+    "peacock.color": "#6c53b1",
+    "liveServer.settings.port": 5501
+}

@@ -1,0 +1,90 @@
+body{
+  background-color: #c0392c;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+  width: 50%;
+  min-width: 600px;
+  background-color: #2c3e50;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+header img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+header h1{
+  text-align: center;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+hr{
+  width: 50%;
+  min-width: 300px;
+  height: 5px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+section h2{
+  padding-left: 8px;
+  border-left: 3px solid #c0392c;
+  margin-left: 50px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+section ul{
+  margin-left: 100px;
+}
+section ul li{
+  margin-top: 5px;
+}
+
+.experience ul{
+  list-style-type: square;
+}
+.formation ul{
+  list-style-type: circle;
+}
+
+.hobby{
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.hobby img{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+
+.hobby h3{
+  text-align: center;
+}
+
+footer h2{
+  text-align: center;
+}
+footer p{
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+footer p .info{
+  color: #c0392c;
+  text-decoration: underline;
+}
+
+span{
+  font-weight: bold;
+}
